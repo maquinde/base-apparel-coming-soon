@@ -19,6 +19,10 @@ body {
 
 .left {
     width: 60%;
+    background-image: url("/images/bg-pattern-desktop.svg"),
+                      linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+    background-position: center;
+    background-size: cover;
 }
 
 .right {
