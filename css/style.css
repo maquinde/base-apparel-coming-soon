@@ -1,15 +1,27 @@
 /* =========================================================
 IMPORTED CSS 
 ========================================================= */
-@import "./form.css";
-@import "./layout.css";
 @import "@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');";
 
 
 /* =========================================================
-BASE STYLES - 34:48
+BASE STYLES - 36:00
 ========================================================= */
 body {
     font-size: 16px;
     font-family: 'Josefin Sans', sans-serif;;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.left {
+    width: 60%;
+}
+
+.right {
+    background-image: url("/images/hero-desktop.jpg");
+    width: 40%;
 }
