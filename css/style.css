@@ -25,6 +25,10 @@ body {
     background-size: cover;
 }
 
+.inner-container {
+    width: 420px;
+}
+
 .right {
     background-image: url("/images/hero-desktop.jpg");
     width: 40%;
