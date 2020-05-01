@@ -1,7 +1,7 @@
 /* =========================================================
 IMPORTED CSS 
 ========================================================= */
-@import "@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
 
 
 /* =========================================================
@@ -9,7 +9,7 @@ BASE STYLES - 36:00
 ========================================================= */
 body {
     font-size: 16px;
-    font-family: 'Josefin Sans', sans-serif;;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .container {
@@ -30,7 +30,35 @@ body {
     width: 420px;
 }
 
+.inner-container .logo {
+    margin: 40px 0;
+}
+
+.inner-container h1 {
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 0;
+}
+
+.inner-container span {
+    font-weight: 100;
+    color: hsl(0, 36%, 70%);
+}
+
+.inner-container p {
+    color: hsl(0, 36%, 70%);
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+
+
 .right {
     background-image: url("/images/hero-desktop.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 40%;
 }
