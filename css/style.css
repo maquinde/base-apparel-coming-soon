@@ -53,6 +53,12 @@ body {
     margin-bottom: 40px;
 }
 
+/* 48:00 */
+
+.inner-container input {
+    padding: 20px;
+}
+
 
 
 .right {
