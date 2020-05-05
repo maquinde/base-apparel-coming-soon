@@ -27,7 +27,7 @@ body {
 
 .inner-container {
     margin: auto;
-    width: 420px;
+    max-width: 430px;
 }
 
 .inner-container .logo {
@@ -55,8 +55,29 @@ body {
 
 /* 48:00 */
 
+.inner-container form {
+    position: relative;
+}
+
 .inner-container input {
-    padding: 20px;
+    padding: 18px;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+
+.inner-container .error-icon {
+    position: absolute;
+    top: 18px;
+    right: 110px;
+}
+
+.inner-container button {
+    position: absolute;
+    right: 0;
+    padding: 15px;
+    width: 100px;
+    border-radius: 50px;
 }
 
 
