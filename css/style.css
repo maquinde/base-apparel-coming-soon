@@ -74,8 +74,12 @@ input {
     color: hsl(0, 36%, 70%);
 }
 
-.error-icon {
-    display: none;
+form.error input {
+    border: 1.5px solid hsl(0, 93%, 68%);
+}
+
+form.error .error-icon {
+    display: block;
     position: absolute;
     top: 15px;
     right: 110px;
@@ -96,17 +100,12 @@ button:hover {
     background: linear-gradient(135deg, hsl(0, 70%, 89%), hsl(0, 86%, 67%));
 }
 
-.inner-container small {
+.error-small {
     display: none;
     margin-left: 30px;
     color: hsl(0, 93%, 68%);
     font-size: 14px;
 }
-
-.error {
-    border: 2px solid hsl(0, 93%, 68%);
-}
-
 
 .right {
     background-image: url("/images/hero-desktop.jpg");
